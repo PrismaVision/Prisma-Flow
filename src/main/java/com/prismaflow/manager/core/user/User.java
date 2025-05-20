@@ -1,4 +1,4 @@
-package com.prismaflow.manager.core.entity;
+package com.prismaflow.manager.core.user;
 
 public record User(
         
@@ -6,6 +6,6 @@ public record User(
         String name,
         String email,
         String password,
-        String role
+        UserRole role
 ) {
 }
