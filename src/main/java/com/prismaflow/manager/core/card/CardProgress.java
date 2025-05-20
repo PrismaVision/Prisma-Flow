@@ -1,13 +1,13 @@
-package com.prismaflow.manager.core.task;
+package com.prismaflow.manager.core.card;
 
-public enum TaskStatus {
+public enum CardProgress {
 
     TODO("Todo"),
     IN_PROGRESS("In Progress"),
     DONE("Done");
 
     private final String description;
-    TaskStatus(final String description) {
+    CardProgress(final String description) {
         this.description = description;
     }
 
