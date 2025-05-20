@@ -1,4 +1,4 @@
-package com.prismaflow.manager.core.user;
+package com.prismaflow.manager.core.entities.user;
 
 public enum UserRole {
 
