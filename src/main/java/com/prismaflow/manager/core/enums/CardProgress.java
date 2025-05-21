@@ -1,4 +1,4 @@
-package com.prismaflow.manager.core.entities.card;
+package com.prismaflow.manager.core.enums;
 
 public enum CardProgress {
 
